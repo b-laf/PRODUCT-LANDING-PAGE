@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Product Landing Page" />
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/338e6989a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="/img/Logo_Reservia.png" alt="Logo_Reservia">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#presentation">Présentation</a>
+            <a class="nav-link" href="#inscription">Inscription</a>
+            <a class="nav-link" href="#prix">Prix</a>
+        </nav>
+    </header>
+    <main>
+
+        <section id="presentation">
+            <div class="div-icon">
+                <span class="icon"><i class="fa-solid fa-plane-departure"></i></span>
+                <span class="icon"><i class="fa-solid fa-suitcase"></i></span>
+                <span class="icon"><i class="fa-solid fa-campground"></i></span>
+            </div>
+            <div class="div-text-icon">
+                <p>Nous assurons l'organisation de l'ensemble du transport entre chez vous et le lieux de votre roadtrip. Puis nous organisons les déplacements entre les randonnées.</p>
+                <p>Vous n'avez aucun bagage à porter, dès que vous avez besoin, vous pouvez faire appel à notre service FeelFree pour qu'il ammène vos bagages au lieu de votre choix.</p>
+                <p>Si vous souhaitez ajouter une étape camping sauvage, rien de plus simple, il suffit de nous prévenir 24h avant la nuit souhaitée.</p>
+            </div>
+        </section>
+
+        <section id="inscription">
+            <iframe id="video"  src="https://www.youtube-nocookie.com/embed/3ulXLTLtUX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email" class="label-email"><input name="email" id="email" type="email" placeholder="Entrer votre adresse email"></label>
+                <input id="submit" type="submit" value="Démarrer l'experience" >
+            </form>
+        </section>
+
+        <section id="prix">
+            <div class="type-product">
+                <h2>Basique</h2>
+                <h3>400€</h3>
+                <ul>
+                    <li><span class="icon-prix"><i class="fa-solid fa-square-check"></span></i> Transport</li>
+                    <li><span class="icon-prix"><i class="fa-regular fa-square-check"></span></i> Assurance</li>
+                    <li><span class="icon-prix"><i class="fa-regular fa-square-check"></span></i> FeelFree</li>
+                </ul>
+                <button class="btn">Choisir</button>
+            </div>
+            <div class="type-product">
+                <h2>Premium</h2>
+                <h3>600€</h3>
+                <ul>
+                    <li><span class="icon-prix"><i class="fa-solid fa-square-check"></span></i> Transport</li>
+                    <li><span class="icon-prix"><i class="fa-solid fa-square-check"></span></i> Assurance</li>
+                    <li><span class="icon-prix"><i class="fa-regular fa-square-check"></span></i> FeelFree</li>
+                </ul>
+                <button class="btn">Choisir</button>
+            </div>
+            <div class="type-product">
+                <h2>FeelFree</h2>
+                <h3>900€</h3>
+                <ul>
+                    <li><span class="icon-prix"><i class="fa-solid fa-square-check"></span></i> Transport</li>
+                    <li><span class="icon-prix"><i class="fa-solid fa-square-check"></span></i> Assurance</li>
+                    <li><span class="icon-prix"><i class="fa-solid fa-square-check"></span></i> FeelFree</li>
+                </ul>
+                <button class="btn">Choisir</button>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
